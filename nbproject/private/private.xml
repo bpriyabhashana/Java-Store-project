@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/student/OCPJP65/JDBC/Temp/ThogaKade/src/thogaKade/view/PlaceOrderForm.java</file>
+            <file>file:/home/student/OCPJP65/JDBC/Temp/ThogaKade/src/thogaKade/controller/CustomerController.java</file>
+            <file>file:/home/student/OCPJP65/JDBC/Temp/ThogaKade/src/thogaKade/db/DBConnection.java</file>
+            <file>file:/home/student/OCPJP65/JDBC/Temp/ThogaKade/src/thogaKade/model/Customer.java</file>
+        </group>
+        <group name="GDSE39">
+            <file>file:/home/student/CMJD66/JDBC/ThogaKade/src/ijse/cmjd66/thogaKade/view/PlaceOrderForm.java</file>
+            <file>file:/home/student/CMJD66/JDBC/ThogaKade/src/ijse/cmjd66/thogaKade/controller/CustomerController.java</file>
+            <file>file:/home/student/CMJD66/JDBC/ThogaKade/src/ijse/cmjd66/thogaKade/db/DBConnection.java</file>
+            <file>file:/home/student/CMJD66/JDBC/ThogaKade/src/ijse/cmjd66/thogaKade/model/Customer.java</file>
+            <file>file:/home/student/CMJD66/JDBC/ThogaKade/src/ijse/cmjd66/thogaKade/controller/ItemController.java</file>
+            <file>file:/home/student/CMJD66/JDBC/ThogaKade/src/ijse/cmjd66/thogaKade/model/Item.java</file>
+        </group>
+    </open-files>
+</project-private>
