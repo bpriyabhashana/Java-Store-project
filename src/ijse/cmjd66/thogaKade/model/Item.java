@@ -66,6 +66,9 @@ public class Item {
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
+     public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
+    }
 
     /**
      * @return the qtyOnHand
