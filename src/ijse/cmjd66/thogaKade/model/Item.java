@@ -11,7 +11,7 @@ package ijse.cmjd66.thogaKade.model;
  */
 public class Item {
     private String code;
-    private String description;
+    private String desc;
     private double unitPrice;
     private int qtyOnHand;
 
@@ -20,7 +20,7 @@ public class Item {
 
     public Item(String code, String description, double unitPrice, int qtyOnHand) {
         this.code = code;
-        this.description = description;
+        this.desc = description;
         this.unitPrice = unitPrice;
         this.qtyOnHand = qtyOnHand;
     }
@@ -42,15 +42,15 @@ public class Item {
     /**
      * @return the description
      */
-    public String getDescription() {
+    public String getDesc() {
         return description;
     }
 
     /**
      * @param description the description to set
      */
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     /**
