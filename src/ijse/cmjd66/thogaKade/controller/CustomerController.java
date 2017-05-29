@@ -19,8 +19,8 @@ import java.util.ArrayList;
  */
 public class CustomerController {
     public static ArrayList<String> getAllCustomerIds() throws ClassNotFoundException, SQLException{
-        Connection connection=DBConnection.getDBConnection().getConnection();
-        Statement stm=connection.createStatement();
+        Connection connect=DBConnection.getDBConnection().getConnection();
+        Statement stm=connect.createStatement();
         String SQL="Select id from Customer";
         ResultSet rst=stm.executeQuery(SQL);
         ArrayList<String>customerIds=new ArrayList<>();
@@ -30,8 +30,8 @@ public class CustomerController {
         return customerIds;
     }
     public static Customer searchCustomer(String id)throws ClassNotFoundException,SQLException{
-        Connection connection=DBConnection.getDBConnection().getConnection();
-        Statement stm=connection.createStatement();
+        Connection connect=DBConnection.getDBConnection().getConnection();
+        Statement stm=connect.createStatement();
         String SQL="Select * From Customer where id='"+id+"'";
         ResultSet rst=stm.executeQuery(SQL);
         if(rst.next()){
