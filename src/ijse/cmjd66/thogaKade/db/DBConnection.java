@@ -17,13 +17,14 @@ import java.sql.SQLException;
 /*import jdbc drivers and connect to the data base*/
 
 public class DBConnection {
-    private Connection connection;
+    private Connection connect;
     private static DBConnection dBConnection;
     private DBConnection() throws ClassNotFoundException, SQLException{
         Class.forName("com.mysql.jdbc.Driver");
         //make connection with driver manager
-        connection=DriverManager.getConnection("jdbc:mysql://localhost/ThogaKade","root","ijse");
+        connect=DriverManager.getConnection("jdbc:mysql://localhost/ThogaKade","root","ijse");
     }
+    /*return connection*/
    public Connection getConnection(){
        return connection;
    }
