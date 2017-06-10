@@ -39,6 +39,7 @@ public class CustomerController {
             Customer customer=new Customer(id, rst.getString("name"),rst.getString("address"),rst.getDouble("salary"));
             return customer;
         }
+       
         return null;
 
     }
