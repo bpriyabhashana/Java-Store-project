@@ -28,6 +28,7 @@ public class CustomerController {
             customerIds.add(rst.getString("id"));
         }
        
+    
         return customerIds;
     }
     public static Customer searchCustomer(String id)throws ClassNotFoundException,SQLException{
