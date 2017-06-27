@@ -26,6 +26,7 @@ public class ItemController {
         for (OrderDetail orderDetail : orderDetailList) {
             String SQL = "Update Item set qtyOnHand=qtyOnHand -" + orderDetail.getQty() + " where code= '" + orderDetail.getIteMCode() + "'";
             if (stm.executeUpdate(SQL) ==0) {
+              
                 return false;
             }
         }
